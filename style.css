@@ -4,7 +4,8 @@ body {
     
     background-image: url('restaurant bg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%; /*Changes from cover to stretch completely*/
+    background-attachment: fixed; /*Fixes the image so it stays when someone scrolls*/
     background-position: center;
 /* Text Color */
 
